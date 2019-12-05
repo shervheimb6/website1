@@ -34,7 +34,8 @@
  }
  .box {
      border: 5px solid red;
- }
+     border-radius: 12%;
+    }
 
 #link {
     background-color: white;
