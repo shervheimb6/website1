@@ -9,6 +9,7 @@
      row-gap: 110px;
      justify-content: space-around;      
  }
+
 article {
 background-color: rgb(36, 218, 12);
 font-size: 18px;
@@ -20,31 +21,24 @@ margin-left:30%;
 border-radius:25px;
 padding-right: 8px;
 padding-left:8px;
-
 }
 
-@media only screen and (max-width: 500px){
-   #link {
-       display:none;
-   }
 
-
-    }
-    @media only screen and ( max-width: 960px) {
-
-    
-    
+    @media only screen and ( max-width: 560px) {
 
     .grid {
-        width: 285px;
+        width: 400px;
         display:flexbox;
-    }
+        grid-template-columns: 1fr 1fr 1fr;
+ }
 }
+
  .grid img {
      width:100%;
      height: 100%;
      border-radius: 8%;
  }
+
  .box {
      border: 5px solid red;
      border-radius: 12%;
@@ -59,7 +53,6 @@ padding-left:8px;
     
 }
 
-/*this is the begining of original code*/
 #logo p {
     background-color: blue;
     border-radius: 25px;
@@ -69,7 +62,6 @@ padding-left:8px;
     font-size: 50px;
     font-family:sans-serif;
     padding-bottom: 10px;
-    
 }
 
 #gif{
@@ -78,10 +70,7 @@ padding-left:8px;
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-      
 }
-
-
 
 nav {
     overflow: hidden;
@@ -90,6 +79,7 @@ nav {
     top: 0;
     width: 100%;
 }
+
 nav a {
     float: left;
     display: block;
@@ -99,13 +89,10 @@ nav a {
     text-decoration: none;
     font-size: 17px;
 }
+
 nav a:hover {
     background: #ddd;
     color: black;
-}
-@media only screen and (max-width:680px) {
-    
-
 }
 
 #about{
@@ -113,6 +100,7 @@ nav a:hover {
     margin-right: 32%;
     font-size:20px;
 }
+
 p {
     font-weight: 800;
     font-family: sans;
@@ -122,43 +110,39 @@ p {
     padding-right:50px;
     border-radius: 25px;
     line-height:1.75;
-    color:white;
-    
+    color:white;  
 }
+
 @media only screen and (max-width: 450px){
     #logo p {
         font-size: .95rem;
-        margin-top: 65px;
-        
-        
-    }
-
-    p {
+        margin-top: 65px;    
+}
+    
+p {
         padding-left:0;
         padding-right:0;
         margin-left: 5%;
         margin-right: 5%;
+}
 
-        
-        
-    }
     #about p {
         margin-right:5%;
         margin-left:5%;
     }
     
-    
-    article {
+     article {
         margin-left: 5%;
         margin-right: 5%;
     }
 }
+
 h3 {
     color:white;
 }
+
 footer {
     background-color: rgb(186, 194, 194);
     padding-left: 6%;
     border-radius: 25px;
 }
-/* this is the end if the original code*/
