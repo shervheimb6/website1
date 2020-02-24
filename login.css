@@ -1,0 +1,27 @@
+nav {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+nav a {
+    color: white;   
+}
+
+nav a:hover {
+    background-color: rgb(170, 167, 173);
+    color: black;
+}
+
+.login-form {  
+    background-color: rgb(96, 104, 104);
+    display: inline-block;
+    text-align: center;
+    width:100%;   
+}
+.container {
+   border: 4px solid black; 
+}
+
+
+
+
