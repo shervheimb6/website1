@@ -7,7 +7,8 @@
      grid-auto-columns:75px;
      column-gap: 25px;
      row-gap: 110px;
-     justify-content: space-around;      
+     justify-content: space-evenly;  
+         
  }
 
 article {
@@ -23,8 +24,13 @@ padding-right: 8px;
 padding-left:8px;
 }
 
+.main_img {
+  width: 100%;
+  margin: auto 0;
+}
 
-    @media only screen and ( max-width: 560px) {
+
+    @media only screen and ( max-width: 660px) {
 
     .grid {
         width: 400px;
@@ -38,10 +44,12 @@ padding-left:8px;
      height: 100%;
      border-radius: 8%;
  }
+ 
 
  .box {
      border: 5px solid red;
      border-radius: 12%;
+     
     }
 
 #link {
@@ -64,13 +72,13 @@ padding-left:8px;
     padding-bottom: 10px;
 }
 
-#gif{
+/*#gif{
      
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-}
+}*/
 
 nav {
     overflow: hidden;
